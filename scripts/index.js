@@ -20,7 +20,7 @@ var newsData = [];
 
 
 // API key
-const apikey = "YOUR_NEWS_API_KEY" <!-- REPLACE THIS PART -->
+const apikey = "YOUR_NEWS_API_KEY" // REPLACE THIS PART
 const Headlines = "https://newsapi.org/v2/top-headlines?country=us&apiKey="
 const General = "https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey="
 const Business = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey="
