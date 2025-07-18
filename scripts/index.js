@@ -185,7 +185,7 @@ function displayNews() {
         var image = document.createElement('img');
         image.setAttribute("height", "matchprent");
         image.setAttribute("width", "100%");
-        image.src = news.urlToImage;
+        image.src = news.urlToImage || "https://via.placeholder.com/300x180.png?text=No+Image";
         
         var cardBody = document.createElement("div");
         
@@ -205,7 +205,7 @@ function displayNews() {
         
         var description = document.createElement('p');
         description.className = "text-muted";
-        description.innerHTML = news.description;
+        description.innerHTML = news.description || "No description available.";
         
         cardBody.appendChild(newsHead)
         cardBody.appendChild(dateH)
